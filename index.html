@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Digital Rights Management</title>
+        <style>
+            #left{
+                margin-top: 180px;
+                margin-left: 250px;
+                float: left;
+                position: relative;
+            }
+            #right{
+                margin-top: 180px;
+                margin-left: 250px;
+                float: left;
+            }
+        
+        
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 align="center">Digital Rights Management</h1>
+        </header>
+        <div id="left">
+            <h2>Submit image for Secure Share</h2>
+            <br>
+            <h3>STORE</h3>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                
+                <input type="submit" value="Upload Image" name="submit">
+                <br><br>
+                <button>Store</button>
+            </form>
+            
+        
+        </div>
+        <div id="right">
+            <h2>Submit JSON for retrieval</h2>
+            <br>
+            <h3>RETRIEVE</h3>
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                
+                <input type="submit" value="Upload Image" name="submit">
+                <br><br>
+                <button>Retrieve</button>
+            </form>
+        
+        
+        </div>
+    
+    </body>
+
+</html>
